@@ -109,7 +109,6 @@ class Cropper extends Component {
      * End cropping
      */
     end() {
-        imageEditor.setZoom(1, true);
         const canvas = this.getCanvas();
         const cropzone = this._cropzone;
 

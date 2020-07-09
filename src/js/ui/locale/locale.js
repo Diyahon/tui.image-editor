@@ -2,10 +2,6 @@
  * Translate messages
  */
 class Locale {
-    /**
-     * @constructor
-     * @param {Object} locale - Locale object for initialise
-     */
     constructor(locale) {
         this._locale = locale;
     }
